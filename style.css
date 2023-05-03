@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+#navbar {
+    height: 8vh;
+    background-color: rgb(217, 4, 41);
+    overflow: hidden;
+    border-bottom: 1px black solid;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.nav-list {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+} 
+
+.nav-list li {
+    display: inline-block;
+    line-height: 8vh;
+    /*border: 1px solid black;*/
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.nav-list li a:hover {
+    background-color: #2B2D42
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(210deg, rgb(43, 45, 66), rgb(66, 58, 95));
+}
+
+#welcome-section div {
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+#wecome-section h1, h2, p{
+    margin-top: 20px;
+}
+
+#welcome-section h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#welcome-section h2 {
+    font-size: 24px;
+    font-weight: 400;
+    word-spacing: 5px;
+    color: #ef233c;
+}
+
+#welcome-section p {
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+
+#projects {
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    #welcome-section div {
+        width: 80%;
+    }
+}
