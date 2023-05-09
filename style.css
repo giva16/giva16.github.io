@@ -11,13 +11,12 @@ body {
 
 #navbar {
     height: 8vh;
-    background-color: rgb(217, 4, 41);
-    overflow: hidden;
-    border-bottom: 1px black solid;
+    background-color: rgba(65, 90, 119, 0.2);
     position: fixed;
     top:0;
     width: 100%;
     z-index: 99;
+    overflow: hidden;
 }
 
 a {
@@ -39,14 +38,14 @@ a {
 
 .nav-list li a {
     color: #fff;
-    padding: 20px;
+    padding: 22px;
     font-size: 24px;
     font-weight: 600;
     margin: 0;
 }
 
 .nav-list li a:hover {
-    background-color: #2B2D42
+    background-color: rgb(65, 90, 119);
 }
 
 #welcome-section {
@@ -79,7 +78,7 @@ a {
     font-size: 36px;
     font-weight: 400;
     word-spacing: 5px;
-    color: #ef233c;
+    color: #fff;
 }
 
 #welcome-section p {
@@ -90,11 +89,11 @@ a {
 }
 
 .vu-link {
-    color: orange;
+    color: rgb(3, 132, 218);
 }
 
 .vu-link:hover {
-    color: #efd023;
+    color: #00adfd;
 }
 
 .content {
